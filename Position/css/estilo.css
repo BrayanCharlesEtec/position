@@ -1,0 +1,23 @@
+.box {
+    width: 400px;
+    height: 400px;
+    border: 5px solid rgba(255, 0, 0, 0.575);
+    margin: 10px auto;
+    position: relative;
+}
+
+.item1, .item2{
+    width: 150px;
+    height: 150px;
+}
+
+.item1 {
+    background-color: green;
+    position: absolute;
+    right: 125px;
+    bottom: 125px;
+}
+
+.item2 {
+    background-color: yellow;
+}
